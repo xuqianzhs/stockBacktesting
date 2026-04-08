@@ -1,0 +1,35 @@
+KD Reversal Quantitative Backtesting System: Stop Trading on Gut Feeling
+In the stock market, we constantly hear: "Buy when the KD indicator drops into the oversold zone." But have you ever stopped to ask: Is this signal actually accurate? How many days should you hold the stock after buying? If you traded this way over the past decade, what would your actual win rate be?
+
+This system was built to answer these exact questions. By combining traditional technical analysis with Python-driven backtesting, it helps you ditch "gut feeling" trading and discover what truly works based on hard historical data.
+
+💡 Core Solution
+This isn't just a basic web scraper—it's a complete backtesting platform with a Graphical User Interface (GUI). Simply enter a ticker symbol and your strategy parameters, and the system will download historical data, simulate thousands of trades, and generate clear performance metrics and visual charts in under a second.
+
+Design Philosophy: > Trading shouldn't be a blind gamble. Every entry and exit strategy must survive the test of historical data. This system democratizes algorithmic trading, giving retail investors the power of 1-click backtesting—a tool previously reserved for institutional players.
+
+✨ Key Features
+1. Interactive GUI
+Say goodbye to complex terminal commands. The built-in intuitive interface lets you easily input Ticker Symbol (supports US and Taiwan stocks), Backtest Period, Holding Days, and KD Trigger Threshold. Just click the button and let the engine do the work.
+
+2. Precise Performance Metrics
+The system automatically filters historical entry points and calculates three critical indicators:
+
+Win Rate: The probability of closing the trade with a profit.
+
+Average Actual Return: Your average return if you blindly hold for your specified N days.
+
+Maximum Potential Gain: The highest upward spike during your holding period (crucial for optimizing your take-profit targets).
+
+3. Transparent Trade Logs
+Beyond the summary report, the system logs the exact date and indicator values for every single historical trigger, allowing you to manually review and verify the strategy's behavior.
+
+4. Professional Dark-Mode Charts
+Once the backtest is complete, a sleek, dark-mode chart pops up automatically. The top pane displays the price action with large red arrows pinpointing every buy signal. The bottom pane synchronizes the KD indicator curves and your oversold threshold, making the strategy's effectiveness instantly clear.
+
+🛠️ Practical Use Cases
+Verify Tech Stocks: Want to know the 5-day win rate of buying TSMC (2330.TW) or Nasdaq (^IXIC) when the K-value drops below 10? Find out in one click.
+
+Optimize Take-Profit Strategies: If your Average Actual Return is only 1%, but your Maximum Potential Gain hits 5%, it's a strong signal to switch from a "hold for 5 days" strategy to a strict "take profit at 3%" strategy.
+
+Cross-Market Comparisons: Quickly switch between different markets to see which index or stock respects this specific technical indicator the most.
